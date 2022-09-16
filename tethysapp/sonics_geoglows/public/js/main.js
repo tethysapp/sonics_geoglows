@@ -76,7 +76,7 @@ function init_map() {
 
     var streams = new ol.layer.Image({
 		source: new ol.source.ImageWMS({
-			url: 'http://senamhi.westus2.cloudapp.azure.com:8181/geoserver/peru_hydroviewer/wms',
+			url: 'https://senamhi.westus2.cloudapp.azure.com/geoserver/peru_hydroviewer/wms',
 			//url: 'https://geoserver.hydroshare.org/geoserver/HS-9b6a7f2197ec403895bacebdca4d0074/wms',
 			params: { 'LAYERS': 'south_america-peru-geoglows-drainage_line' },
 			serverType: 'geoserver',
